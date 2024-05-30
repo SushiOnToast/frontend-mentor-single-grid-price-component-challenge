@@ -1,0 +1,152 @@
+html {
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+  background-color: hsl(204, 43%, 93%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container {
+  box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.8);
+  width: 700px;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  margin: auto;
+}
+
+.intro {
+  height: 45%;
+  width: 100%;
+  background-color: white;
+}
+
+.sub {
+  height: 55%;
+}
+
+.subscription,
+.why-us {
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.subscription {
+  background-color: #2bb3b1;
+}
+
+.why-us {
+  background-color: #4abebd;
+  float: right;
+}
+
+.intro,
+.why-us,
+.subscription {
+  padding: 35px;
+}
+
+.intro > h2 {
+  color: #2bb3b1;
+  margin: 0px;
+}
+
+.intro > h3 {
+  color: hsl(71, 73%, 54%);
+}
+
+.intro > p {
+  color: hsl(218, 22%, 67%);
+  margin: 0px;
+  line-height: 25px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  color: hsl(204, 43%, 93%);
+  margin: 0px;
+  margin-bottom: auto;
+  line-height: 22px;
+  opacity: 0.8;
+}
+
+.why-us > h3 {
+  color: white;
+  margin-top: 0px;
+}
+
+.subscription > h3 {
+  color: white;
+  margin: 0px;
+}
+
+.subscription > p {
+  color: white;
+  margin: none;
+}
+
+.large {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.grey {
+  color: hsl(204, 43%, 93%);
+  opacity: 0.8;
+  position: relative;
+  top: -7px;
+  margin: 0px;
+}
+
+button {
+  background-color: hsl(71, 73%, 54%);
+  border: none;
+  color: white;
+  font-weight: 700;
+  width: 100%;
+  padding: 15px;
+  box-shadow: 0px 0px 20px -9px rgba(0, 0, 0, 0.8);
+  margin-top: 12px;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #4abebd;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 757px) {
+  .main-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .intro,
+  .subscription,
+  .why-us {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .main-container {
+    height: auto;
+    transform: translatey(0%);
+  }
+}
