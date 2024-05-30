@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL (hosted on github pages)](https://sushiontoast.github.io/frontend-mentor-single-grid-pricing-component-challenge/)
+- [Solution URL (hosted on github pages)](https://sushiontoast.github.io/frontend-mentor-single-grid-price-component-challenge/)
 
 ## My process
 
