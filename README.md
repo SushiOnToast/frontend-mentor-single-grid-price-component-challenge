@@ -28,7 +28,6 @@ Users should be able to:
 ### Screenshot
 
 ![A preview of the final solution on desktop](./computer_preview.png)
-![A preview of the final solution on mobile](./mobile_preview.png)
 
 ### Links
 
