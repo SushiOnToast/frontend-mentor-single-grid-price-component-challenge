@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: "Karla", sans-serif;
-  background-color: #fafafa;
+  background-color: hsl(218, 22%, 67%);
 }
 
 * {
